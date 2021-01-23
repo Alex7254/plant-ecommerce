@@ -4,34 +4,6 @@ import styled from 'styled-components'
 
 const StyledList = styled.li`
     margin: 10px 0;
-    box-sizing: border-box;
-    display: block;
-    width: 100%;
-
-    @media (min-width: 500px) {
-        margin: 10px;
-        display: flex;
-        height: 100%;
-        width: auto;
-        align-items: center;
-        
-        .& a {
-            /* color: black; */
-            color: white;
-            height: 100%;
-            // padding: 40px 50px;
-            border-bottom: 4px solid transparent;
-        }
-        
-        .& a:hover,
-        .& a:active,
-        .& a.active {
-            background-color: red;
-            border-bottom: 1px solid black;
-            color: white;
-        }
-
-    }
 `;
 
 const StyledLink = styled.a`

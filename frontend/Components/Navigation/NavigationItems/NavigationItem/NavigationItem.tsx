@@ -19,7 +19,7 @@ const StyledList = styled.li`
             /* color: black; */
             color: white;
             height: 100%;
-            padding: 40px 50px;
+            // padding: 40px 50px;
             border-bottom: 4px solid transparent;
         }
         
@@ -36,7 +36,7 @@ const StyledList = styled.li`
 
 const StyledLink = styled.a`
     ${StyledList} & {
-            color: #8F5C2C;
+            color: #666633;
             text-decoration: none;
             width: 100%;
             box-sizing: border-box;

@@ -9,7 +9,7 @@ const StyledUl = styled.ul`
     flex-direction: row;
     align-items: center;
     height: 100%;
-
+    background-color: darkblue;
     @media (min-width: 500px) {
         width:95%;
         flex-flow: row;

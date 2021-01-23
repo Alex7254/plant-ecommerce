@@ -4,14 +4,12 @@ import NavigationItem from './navigationItem/NavigationItem';
 import styled from 'styled-components'
 
 const StyledUl = styled.ul`
-    margin: 0;
-    padding: 0;
     list-style: none;
     display: flex;
-    flex-flow: column;
+    flex-direction: row;
     align-items: center;
     height: 100%;
-
+    background-color: darkblue;
     @media (min-width: 500px) {
         width:95%;
         flex-flow: row;

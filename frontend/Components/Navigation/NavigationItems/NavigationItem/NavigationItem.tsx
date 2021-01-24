@@ -3,41 +3,14 @@ import Link from 'next/link';
 import styled from 'styled-components'
 
 const StyledList = styled.li`
-    margin: 10px 0;
+    cursor: pointer;
+    background-color: green;
 `;
 
 const StyledLink = styled.a`
-    ${StyledList} & {
-            color: #666633;
-            text-decoration: none;
-            width: 100%;
-            box-sizing: border-box;
-            display: block;
-    }
-    ${StyledList} &:hover,
-    ${StyledList} &:active,
-    ${StyledList} &.active {
-        color: #40A4C8;
-    }
-
-    @media (min-width: 500px) {
-        
-        ${StyledList} &{
-            color: black;
-            height: 100%;
-            padding: 40px 50px;
-            border-bottom: 4px solid transparent;
-        }
-        
-        ${StyledList} &:hover,
-        ${StyledList} &:active,
-        ${StyledList} &.active {
-            background-color: transparent;
-            border-bottom: 1px solid black;
-            color: black;
-        }
-
-    }
+    background-color: pink;
+    color: #666633;
+    padding: 10px;
 `;
 
 const navigationItem = (props) => (

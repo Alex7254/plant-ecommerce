@@ -4,7 +4,7 @@ import NavigationItem from './navigationItem/NavigationItem';
 import styled from 'styled-components'
 
 const StyledUl = styled.ul`
-    list-style: none;
+    list-style-type: none;
     display: flex;
     flex-direction: row;
     align-items: center;

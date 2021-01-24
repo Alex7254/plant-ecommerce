@@ -1,20 +1,15 @@
 import React from 'react';
 
-import NavigationItem from './navigationItem/NavigationItem';
+import NavigationItem from './NavigationItem';
 import styled from 'styled-components'
 
 const StyledUl = styled.ul`
-    list-style: none;
+    list-style-type: none;
     display: flex;
     flex-direction: row;
     align-items: center;
-    height: 100%;
+    width: 100%;
     background-color: darkblue;
-    @media (min-width: 500px) {
-        width:95%;
-        flex-flow: row;
-        justify-content: flex-end;
-    }
 `;
 
 const navigationItems = () => (

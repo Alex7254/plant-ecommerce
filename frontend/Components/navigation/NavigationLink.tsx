@@ -2,26 +2,26 @@ import React from 'react';
 import Link from 'next/link';
 import styled from 'styled-components'
 
-const StyledList = styled.li`
-    cursor: pointer;
-    background-color: green;
+const StyledListItem = styled.li`
+    margin: 0 10px;
+    display: inline-block;
+    padding: 5px;
 `;
 
 const StyledLink = styled.a`
-    background-color: pink;
+    cursor: pointer;
+    padding: 5px;
     color: #666633;
-    padding: 10px;
-    margin: 0 10px;
 `;
 
 const navigationItem = (props) => (
-    <StyledList>
+    <StyledListItem>
         <Link href={props.link}>
             <StyledLink>
                 {props.children}
             </StyledLink>
         </Link>
-    </StyledList>
+    </StyledListItem>
 )
 
 export default navigationItem;

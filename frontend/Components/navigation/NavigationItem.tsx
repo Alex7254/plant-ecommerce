@@ -11,6 +11,7 @@ const StyledLink = styled.a`
     background-color: pink;
     color: #666633;
     padding: 10px;
+    margin: 0 10px;
 `;
 
 const navigationItem = (props) => (

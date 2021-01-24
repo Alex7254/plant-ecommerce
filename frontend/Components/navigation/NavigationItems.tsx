@@ -1,6 +1,6 @@
 import React from 'react';
 
-import NavigationItem from './navigationItem/NavigationItem';
+import NavigationItem from './NavigationItem';
 import styled from 'styled-components'
 
 const StyledUl = styled.ul`

@@ -2,8 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import styled from 'styled-components'
 
-const svgSize = 25;
-
+const svgSize = 27;
 const StyledLink = styled.a`
     cursor: pointer;
     padding: 5px;
@@ -11,15 +10,14 @@ const StyledLink = styled.a`
     display: grid;
     place-items:center;
 `;
-
-const CartButton = () => {
+const Logo = () => {
   return (
     <Link href="/">
       <StyledLink>
-        <Image src="/svg/cart-icon.svg" alt="me" height={svgSize} width={svgSize} />
+        <Image src="/svg/cactus-logo.svg" alt="me" height={svgSize} width={svgSize} />
       </StyledLink>
     </Link>
   )
 }
 
-export default CartButton
+export default Logo

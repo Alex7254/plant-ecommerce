@@ -2,6 +2,7 @@ import Head from 'next/head'
 import { createGlobalStyle } from 'styled-components'
 
 import NavigationLinks from '../components/navigation/NavigationLinks';
+import HeroSection from '../components/homepage/HeroSection';
 
 
 const GlobalStyle = createGlobalStyle`
@@ -38,6 +39,7 @@ export default function Home() {
 
       {/* <Nav></Nav> */}
       <NavigationLinks />
+      <HeroSection />
     </div>
   )
 }

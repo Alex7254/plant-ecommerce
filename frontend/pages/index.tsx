@@ -5,7 +5,6 @@ import NavigationLinks from '../components/navigation/NavigationLinks';
 
 
 const GlobalStyle = createGlobalStyle`
- @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap");
 
 body {
   font-family: "Poppins", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans,
@@ -30,9 +29,11 @@ a {
 export default function Home() {
   return (
     <div>
-      <GlobalStyle whiteColor/>
+      <GlobalStyle />
       <Head>
-        <title>Create Next App</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet" />
+        <title>Cat Farm Succulents</title>
       </Head>
 
       {/* <Nav></Nav> */}

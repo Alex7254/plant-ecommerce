@@ -5,12 +5,13 @@ import styled from 'styled-components'
 const StyledListItem = styled.li`
     margin: 0 10px;
     display: inline-block;
-    padding: 5px;
+    padding: 0 5px;
+    /* background-color: aliceblue; */
 `;
 
-const StyledLink = styled.a`
+export const StyledLink = styled.a`
     cursor: pointer;
-    padding: 5px;
+    padding: 0 5px;
     color: #666633;
 `;
 

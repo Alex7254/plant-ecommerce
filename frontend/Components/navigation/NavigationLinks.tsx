@@ -15,6 +15,8 @@ const StyledUl = styled.ul`
 
 const StyledNav = styled.nav`
     /* background-color: #9ab1b1; */
+    width: 100%;
+    position: fixed;
     padding: 20px 150px;
     display: flex;
     flex-direction: row;

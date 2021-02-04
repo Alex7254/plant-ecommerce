@@ -29,6 +29,7 @@ cursor: default;
   }
   > h3 {
     font-weight: 300;
+    color: #666633;
   }
   > button {
     margin-top: 45px;

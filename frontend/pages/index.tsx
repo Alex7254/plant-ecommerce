@@ -1,8 +1,10 @@
 import Head from 'next/head'
 import { createGlobalStyle } from 'styled-components'
 
-import NavigationLinks from '../components/navigation/NavigationLinks';
-
+import SectionWrapper from '../hoc/layout/SectionWrapper'
+import NavigationLinks from '../components/navigation/NavigationLinks'
+import HeroSection from '../components/homepage/HeroSection'
+import SectionTitle from '../components/common/SectionTitle'
 
 const GlobalStyle = createGlobalStyle`
 
@@ -24,6 +26,12 @@ a {
   padding: 0;
 }
 
+button {
+  border: none;
+  font-family: "Poppins";
+  cursor: pointer;
+}
+
 `
 
 export default function Home() {
@@ -32,12 +40,16 @@ export default function Home() {
       <GlobalStyle />
       <Head>
         <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet" />
         <title>Cat Farm Succulents</title>
       </Head>
 
       {/* <Nav></Nav> */}
       <NavigationLinks />
+      <HeroSection />
+      <SectionWrapper>
+        <SectionTitle >Featured Plants</SectionTitle>
+      </SectionWrapper>
     </div>
   )
 }

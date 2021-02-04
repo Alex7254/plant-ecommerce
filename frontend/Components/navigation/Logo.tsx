@@ -2,7 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import styled from 'styled-components'
 
-const svgSize = 27;
+const svgSize = 35;
 const StyledLink = styled.a`
     cursor: pointer;
     padding: 5px;

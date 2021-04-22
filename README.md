@@ -12,6 +12,9 @@ Should be in `Common` folder if shared.
 `ComponentName.tsx`
 
 ***Page Files***
+-
+`pageName.tsx`
+-
 Should be organized with components to be readable. For Example: 
 ```
 const somePage = () => (
@@ -22,7 +25,6 @@ const somePage = () => (
     </Page>
 );
 ```
-`pageName.tsx`
 
     
 

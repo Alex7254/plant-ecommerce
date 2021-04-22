@@ -7,10 +7,21 @@ Run `Yarn install` in backend and frontend to install dependecies for Strapi and
 ## Code Style Guide
 
 ### File Names
-***Component Files***
+***Components***
+Should be in `Common` folder if shared.
 `ComponentName.tsx`
 
 ***Page Files***
+Should be organized with components to be readable. For Example: 
+```
+const somePage = () => (
+    <Page>
+      <SectionOne />
+      <SectionTwo />
+      <SectionThree />
+    </Page>
+);
+```
 `pageName.tsx`
 
     

@@ -6,7 +6,7 @@ Run `Yarn install` in backend and frontend to install dependecies for Strapi and
 
 ## Code Style Guide
 
-#### File Names
+### File Names
 ***Component Files***
 `ComponentName.tsx`
 

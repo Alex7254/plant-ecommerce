@@ -5,6 +5,8 @@
 Run `npm ci` in backend and frontend to install dependecies for Strapi and Next.\
 Don't use `npm i`.
 
+---
+
 ## Code Style Guide
 
 ### Files and Folders
@@ -24,6 +26,10 @@ const somePage = () => (
     </Page>
 );
 ```
+
+---
+
+Create a new branch for the section/feature you're working on.
 
     
 

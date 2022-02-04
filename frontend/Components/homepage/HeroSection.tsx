@@ -32,7 +32,7 @@ const HeroHeader = styled.div`
   cursor: default;
   color: var(--dark-green);
   > h1 {
-    font-size: 3.2rem;
+    font-size: 3.43rem;
   }
   > h3 {
     font-weight: 300;
@@ -47,7 +47,7 @@ const HeroSection = () => {
     <HeroArea>
       <HeroMaxWidth>
         <HeroHeader>
-          <h1>Farm Cat Succulents</h1>
+          <h1>Cat Farm Succulents</h1>
           <h3>Indoor and outdoor succulents.</h3>
           <Button buttonText="Our Store" />
         </HeroHeader>

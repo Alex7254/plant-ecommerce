@@ -6,7 +6,6 @@ import CactusLogo from './Logo';
 
 const StyledUl = styled.ul`
     list-style-type: none;
-    /* background-color: darkblue; */
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -14,7 +13,6 @@ const StyledUl = styled.ul`
 `;
 
 const StyledNav = styled.nav`
-    /* background-color: #9ab1b1; */
     width: 100%;
     position: fixed;
     padding: 20px 150px;

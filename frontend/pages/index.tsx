@@ -10,6 +10,7 @@ const GlobalStyle = createGlobalStyle`
   :root {
     --dark-green: #333300;
     --light-green: #666633;
+    ---beige: #fefae0;
   }
   body {
     font-family: "Poppins", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans,

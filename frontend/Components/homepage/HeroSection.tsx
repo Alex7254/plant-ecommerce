@@ -12,12 +12,9 @@ const HeroArea = styled.section`
   background-size: cover;
   width: 100%;
   height: 90vh;
-  
-  /* padding: 0 150px; */
 `;
 
 const HeroMaxWidth = styled.div`
-  /* background-color: red; */
   width: 100%;
   height: 100%;
   margin: auto;
@@ -42,6 +39,7 @@ const HeroHeader = styled.div`
     margin-top: 45px;
   }
 `;
+
 const HeroSection = () => {
   return (
     <HeroArea>

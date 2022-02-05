@@ -13,6 +13,7 @@ const StyledUl = styled.ul`
 `;
 
 const StyledNav = styled.nav`
+  background-color: var(--beige);
   max-width: 120rem;
   width: 100%;
   margin: 0 auto;
@@ -20,7 +21,7 @@ const StyledNav = styled.nav`
   position: fixed;
   left: 0;
   right: 0;
-  padding:1rem 0;
+  padding: 1rem 0;
   display: flex;
   flex-direction: row;
   justify-content: space-between;

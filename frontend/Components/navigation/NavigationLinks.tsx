@@ -20,7 +20,7 @@ const StyledNav = styled.nav`
   position: fixed;
   left: 0;
   right: 0;
-  padding: 20px 150px;
+  padding:1rem 0;
   display: flex;
   flex-direction: row;
   justify-content: space-between;

@@ -4,7 +4,7 @@ import { createGlobalStyle } from "styled-components";
 import SectionWrapper from "../hoc/layout/SectionWrapper";
 import NavigationLinks from "../components/navigation/NavigationLinks";
 import HeroSection from "../components/homepage/HeroSection";
-import SectionTitle from "../components/common/SectionTitle";
+import SectionTitle from "../Components/common/SectionTitle";
 
 const GlobalStyle = createGlobalStyle`
   :root {

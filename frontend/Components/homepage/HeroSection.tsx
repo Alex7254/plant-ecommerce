@@ -11,7 +11,7 @@ const HeroArea = styled.section`
   -o-background-size: cover;
   background-size: cover;
   width: 100%;
-  height: 58rem;
+  height: 65rem;
 `;
 
 const HeroMaxWidth = styled.div`

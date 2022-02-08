@@ -29,14 +29,15 @@ const HeroHeader = styled.div`
   cursor: default;
   color: var(--dark-green);
   > h1 {
-    font-size: 3.43rem;
+    font-size: 3.5rem;
   }
   > h3 {
     font-weight: 300;
+    font-size: 1.2rem;
     color: var(--light-green);
   }
   > button {
-    margin-top: 45px;
+    margin-top: 3.5rem;
   }
 `;
 

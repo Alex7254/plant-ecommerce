@@ -15,28 +15,18 @@ const StyledButton = styled.button`
   font-weight: 300;
   border: none;
   border-radius: 0.313rem;
-  moz-transition: all 0.4s ease-in-out;
-  -o-transition: all 0.4s ease-in-out;
-  -webkit-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out;
   background-size: 300% 100%;
-  background: rgb(221, 161, 94);
-  background: -moz-linear-gradient(
-    90deg,
-    rgba(221, 161, 94, 1) 0%,
-    rgba(188, 108, 37, 1) 100%
+  background-image: linear-gradient(
+    to right,
+    rgb(221, 161, 94),
+    rgb(188, 108, 37),
+    var(--dark-green),
+    var(--light-green)
   );
-  background: -webkit-linear-gradient(
-    90deg,
-    rgba(221, 161, 94, 1) 0%,
-    rgba(188, 108, 37, 1) 100%
-  );
-  background: linear-gradient(
-    90deg,
-    rgba(221, 161, 94, 1) 0%,
-    rgba(188, 108, 37, 1) 100%
-  );
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#dda15e",endColorstr="#bc6c25",GradientType=1);
+  transition: all 0.4s ease;
+  &:hover {
+    background-position: 100% 0;
+  }
 `;
 
 const Button = (props) => {

@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-const cardContainer = styled.div`
+const CardContainer = styled.div`
   background-color: var(--beige)
   height: 20rem;
   width: 10rem;
@@ -8,6 +8,8 @@ const cardContainer = styled.div`
 
 const ItemCard = (props) => {
   return (
-
+    <CardContainer></CardContainer>
   )
 }
+
+export default ItemCard

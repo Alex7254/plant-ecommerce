@@ -1,10 +1,9 @@
 import Head from "next/head";
 import { createGlobalStyle } from "styled-components";
 
-import SectionWrapper from "../hoc/layout/SectionWrapper";
 import NavigationLinks from "../components/navigation/NavigationLinks";
 import HeroSection from "../components/homepage/HeroSection";
-import SectionTitle from "../Components/common/SectionTitle";
+import FeaturedPlants from "../Components/homepage/featuredplants/index.js";
 
 const GlobalStyle = createGlobalStyle`
   :root {
@@ -52,9 +51,7 @@ export default function Home() {
 
       <NavigationLinks />
       <HeroSection />
-      <SectionWrapper>
-        <SectionTitle>Featured Plants</SectionTitle>
-      </SectionWrapper>
+      <FeaturedPlants />
     </div>
   );
 }

@@ -2,7 +2,7 @@ import styled from "styled-components";
 import Image from "next/image";
 
 import WaveBg from "../../public/svg/HeaderWave.svg";
-import Button from "../buttons/Button";
+import Button from "../common/Button";
 
 const HeroArea = styled.section`
   background: url(${WaveBg}) no-repeat center center;

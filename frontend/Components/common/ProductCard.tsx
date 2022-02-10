@@ -1,26 +1,32 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 const CardContainer = styled.div`
-  background-color: var(--beige);
   height: 22rem;
-  width: 15.813rem;
-  border-radius: 1rem;
-  /* position: relative; */
-`
+  width: 18rem;
+  position: relative;
+`;
 
-const ProductImage = styled.img `
-  height: 13rem;
+const ProductImage = styled.img`
+  max-height: 14.2rem;
+`;
+
+const ProductDetails = styled.div`
+  height: 11rem;
   width: 100%;
-  /* position absolute; */
-  /* top: -7.3rem; */
-`
+  position absolute;
+  top: 11rem;
+  z-index: -1;
+  background-color: var(--beige);
+  border-radius: 1rem;
+`;
 
 const ProductCard = (props) => {
   return (
     <CardContainer>
-      <ProductImage src={props.imgUrl} alt={props.imgAlt}/>
+      <ProductImage src={props.imgUrl} alt={props.imgAlt} />
+      <ProductDetails />
     </CardContainer>
-  )
-}
+  );
+};
 
-export default ProductCard
+export default ProductCard;

@@ -6,7 +6,7 @@ const FeaturedPlants = () => {
   return (
     <SectionWrapper>
       <SectionTitle>Featured Plants</SectionTitle>
-      <ProductCard />
+      <ProductCard imgUrl = "/img/plant-1.png"/>
     </SectionWrapper>
   );
 };

@@ -13,7 +13,7 @@ const ProductImage = styled.img`
 const ProductDetails = styled.div`
   height: 11rem;
   width: 100%;
-  position absolute;
+  position: absolute;
   top: 11rem;
   z-index: -1;
   background-color: var(--beige);

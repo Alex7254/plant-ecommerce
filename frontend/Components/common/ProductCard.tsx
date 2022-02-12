@@ -31,12 +31,32 @@ const ProductName = styled.p`
   left: 1.8rem;
 `;
 
+const ProductPrice = styled.p`
+  font-size: 1.2rem;
+  color: var(--dark-green);
+  font-weight: 300;
+  position: absolute;
+  top: 10rem;
+  left: 1.8rem;
+`;
+
+const ProductRating = styled.p`
+  font-size: 1.2rem;
+  color: var(--dark-green);
+  font-weight: 300;
+  position: absolute;
+  top: 10rem;
+  right: 1.8rem;
+`;
+
 const ProductCard = (props) => {
   return (
     <CardContainer>
       <ProductImage src={props.imgUrl} alt={props.imgAlt} />
       <ProductDetails>
         <ProductName>{props.productName}</ProductName>
+        <ProductPrice>$8.00</ProductPrice>
+        <ProductRating>5</ProductRating>
       </ProductDetails>
     </CardContainer>
   );

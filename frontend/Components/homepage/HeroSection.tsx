@@ -2,7 +2,7 @@ import styled from "styled-components";
 import Image from "next/image";
 
 import WaveBg from "../../public/svg/HeaderWave.svg";
-import Button from "../buttons/Button";
+import Button from "../common/Button";
 
 const HeroArea = styled.section`
   background: url(${WaveBg}) no-repeat center center;
@@ -29,14 +29,15 @@ const HeroHeader = styled.div`
   cursor: default;
   color: var(--dark-green);
   > h1 {
-    font-size: 3.43rem;
+    font-size: 3.5rem;
   }
   > h3 {
     font-weight: 300;
+    font-size: 1.2rem;
     color: var(--light-green);
   }
   > button {
-    margin-top: 45px;
+    margin-top: 3.5rem;
   }
 `;
 

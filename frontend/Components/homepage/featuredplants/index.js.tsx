@@ -6,7 +6,7 @@ const FeaturedPlants = () => {
   return (
     <SectionWrapper>
       <SectionTitle>Featured Plants</SectionTitle>
-      <ProductCard imgUrl = "/img/plant-1b.png"/>
+      <ProductCard productName="Crassula Ovata" imgUrl="/img/plant-1b.png" />
     </SectionWrapper>
   );
 };

@@ -11,6 +11,20 @@ const FeaturedPlants = () => {
         <ProductCard productName="Crassula Ovata" imgUrl="/img/plant-1b.png" />
         <ProductCard productName="Crassula Ovata" imgUrl="/img/plant-1b.png" />
         <ProductCard productName="Crassula Ovata" imgUrl="/img/plant-1b.png" />
+        <ProductCard productName="Crassula Ovata" imgUrl="/img/plant-1b.png" />
+        <ProductCard productName="Crassula Ovata" imgUrl="/img/plant-1b.png" />
+        <ProductCard productName="Crassula Ovata" imgUrl="/img/plant-1b.png" />
+        <ProductCard productName="Crassula Ovata" imgUrl="/img/plant-1b.png" />
+        <ProductCard productName="Crassula Ovata" imgUrl="/img/plant-1b.png" />
+        <ProductCard productName="Crassula Ovata" imgUrl="/img/plant-1b.png" />
+        <ProductCard productName="Crassula Ovata" imgUrl="/img/plant-1b.png" />
+        <ProductCard productName="Crassula Ovata" imgUrl="/img/plant-1b.png" />
+        <ProductCard productName="Crassula Ovata" imgUrl="/img/plant-1b.png" />
+        <ProductCard productName="Crassula Ovata" imgUrl="/img/plant-1b.png" />
+        <ProductCard productName="Crassula Ovata" imgUrl="/img/plant-1b.png" />
+        <ProductCard productName="Crassula Ovata" imgUrl="/img/plant-1b.png" />
+        <ProductCard productName="Crassula Ovata" imgUrl="/img/plant-1b.png" />
+        <ProductCard productName="Crassula Ovata" imgUrl="/img/plant-1b.png" />
       </EmblaCarouselComponent>
     </SectionWrapper>
   );

@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useCallback, cloneElement } from "react";
-import  useEmblaCarousel  from "embla-carousel-react";
+import useEmblaCarousel from "embla-carousel-react";
 import styled from "styled-components";
 import { DotButton, PrevButton, NextButton } from "./EmlbaCarouselButtons";
 
@@ -21,7 +21,7 @@ const Viewport = styled.div`
 `;
 
 const Container = styled.div`
-/* background-color: red; */
+  /* background-color: red; */
   display: flex;
   will-change: transform;
   /* margin-left: -1rem; */
@@ -35,16 +35,20 @@ const Slide = styled.div`
   flex: 0 0 auto;
   position: relative;
   /* padding-left: 1rem; */
-
 `;
 
 const SlideInner = styled.div`
   position: relative;
 `;
 
-
 const EmblaCarouselComponent = ({ children }) => {
-  const [EmblaCarouselReact, embla] = useEmblaCarousel({ loop: true, align: 'start' });
+  const [EmblaCarouselReact, embla] = useEmblaCarousel({
+    loop: false,
+    align: "start",
+    skipSnaps: false,
+    inViewThreshold: 1,
+    containScroll: 'trimSnaps'
+  });
   const [prevBtnEnabled, setPrevBtnEnabled] = useState(false);
   const [nextBtnEnabled, setNextBtnEnabled] = useState(false);
   const [selectedIndex, setSelectedIndex] = useState(0);

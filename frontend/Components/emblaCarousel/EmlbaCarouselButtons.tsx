@@ -48,7 +48,7 @@ const sharedButtonStyles = css`
 
   &:not(:disabled) {
     cursor: pointer;
-    fill: #1bcacd;
+    fill: #DDA15E;
   }
 
   &:disabled {

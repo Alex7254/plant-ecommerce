@@ -44,7 +44,7 @@ export const PrevButton = ({ enabled, onClick }) => (
 
 const ButtonNext = styled.button`
   ${sharedButtonStyles}
-  right: 0.7rem;
+  right: -7.2rem;
 `;
 
 export const NextButton = ({ enabled, onClick }) => (

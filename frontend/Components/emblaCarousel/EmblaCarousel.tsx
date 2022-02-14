@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useCallback, cloneElement } from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import styled from "styled-components";
-import { DotButton, PrevButton, NextButton } from "./EmlbaCarouselButtons";
+import { PrevButton, NextButton } from "./EmlbaCarouselButtons";
 
 const Embla = styled.div`
   position: relative;

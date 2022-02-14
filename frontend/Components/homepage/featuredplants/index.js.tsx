@@ -9,10 +9,10 @@ const FeaturedPlants = () => {
       <SectionTitle>Featured Plants</SectionTitle>
       <EmblaCarouselComponent>
         <ProductCard productName="Crassula Ovata" imgUrl="/img/plant-1b.png" />
-        <ProductCard productName="Crassula Ovata" imgUrl="/img/plant-1b.png" />
-        <ProductCard productName="Crassula Ovata" imgUrl="/img/plant-1b.png" />
-        <ProductCard productName="Crassula Ovata" imgUrl="/img/plant-1b.png" />
-        <ProductCard productName="Crassula Ovata" imgUrl="/img/plant-1b.png" />
+        <ProductCard productName="Crassula Ovata" imgUrl="/img/plant-2.png" />
+        <ProductCard productName="Crassula Ovata" imgUrl="/img/plant-3.png" />
+        <ProductCard productName="Crassula Ovata" imgUrl="/img/plant-4.png" />
+        <ProductCard productName="Crassula Ovata" imgUrl="/img/plant-5.png" />
         <ProductCard productName="Crassula Ovata" imgUrl="/img/plant-1b.png" />
         <ProductCard productName="Crassula Ovata" imgUrl="/img/plant-1b.png" />
         <ProductCard productName="Crassula Ovata" imgUrl="/img/plant-1b.png" />

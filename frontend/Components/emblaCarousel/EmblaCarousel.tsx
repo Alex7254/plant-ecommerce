@@ -9,7 +9,6 @@ const Embla = styled.div`
 
 const Viewport = styled.div`
   overflow: hidden;
-  /* background-color: red; */
   &.is-draggable {
     cursor: move;
     cursor: grab;
@@ -21,10 +20,8 @@ const Viewport = styled.div`
 `;
 
 const Container = styled.div`
-  /* background-color: red; */
   display: flex;
   will-change: transform;
-  /* margin-left: -1rem; */
   &:first-child {
     margin-left: 0;
   }
@@ -34,7 +31,6 @@ const Slide = styled.div`
   margin-left: 4rem;
   flex: 0 0 auto;
   position: relative;
-  /* padding-left: 1rem; */
 `;
 
 const SlideInner = styled.div`

@@ -1,8 +1,8 @@
 import styled from "styled-components";
 import SectionTitle from "../common/SectionTitle";
 
-const FeaturedPlants = () => {
+const About = () => {
   return <SectionTitle>About</SectionTitle>;
 };
 
-export default FeaturedPlants;
+export default About;

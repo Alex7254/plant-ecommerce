@@ -1,9 +1,10 @@
 import Head from "next/head";
 import { createGlobalStyle } from "styled-components";
 
-import NavigationLinks from "../components/navigation/NavigationLinks";
-import HeroSection from "../components/homepage/HeroSection";
-import FeaturedPlants from "../Components/homepage/featuredplants/index.js";
+import NavigationLinks from "../Components/navigation/NavigationLinks";
+import HeroSection from "../Components/homepage/HeroSection";
+import FeaturedPlants from "../Components/homepage/FeaturedPlants";
+import About from "../Components/homepage/About";
 
 const GlobalStyle = createGlobalStyle`
   :root {
@@ -52,6 +53,7 @@ export default function Home() {
       <NavigationLinks />
       <HeroSection />
       <FeaturedPlants />
+      <About />
     </div>
   );
 }

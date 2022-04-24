@@ -1,7 +1,7 @@
-import SectionWrapper from "../../../hoc/Layout/SectionWrapper";
-import SectionTitle from "../../../Components/common/SectionTitle";
-import ProductCard from "../../common/ProductCard";
-import EmblaCarouselComponent from "../../emblaCarousel/EmblaCarousel";
+import SectionWrapper from "../../hoc/Layout/SectionWrapper";
+import SectionTitle from "../common/SectionTitle";
+import ProductCard from "../common/ProductCard";
+import EmblaCarouselComponent from "../emblaCarousel/EmblaCarousel";
 
 const FeaturedPlants = () => {
   return (

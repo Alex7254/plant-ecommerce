@@ -9,19 +9,26 @@ const StyledUl = styled.ul`
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  width: 120rem;
+  max-width: 120rem;
+  margin: 0 auto;
+  > div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
 `;
 
 const StyledNav = styled.nav`
   background-color: var(--beige);
-  max-width: 120rem;
   width: 100%;
   margin: 0 auto;
   z-index: 2;
   position: fixed;
   left: 0;
   right: 0;
-  padding: 1rem 0;
+  padding: 0.5rem 0;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -32,13 +39,15 @@ const cartButton = styled.a;
 
 const navigationItems = () => (
   <StyledNav>
-    <CactusLogo />
     <StyledUl>
-      <NavigationLink link="/">Home</NavigationLink>
-      <NavigationLink link="/projects">Projects</NavigationLink>
-      <NavigationLink link="/about">About</NavigationLink>
-      <NavigationLink link="/experience">Experience</NavigationLink>
-      <CartButton />
+      <CactusLogo />
+      <div>
+        <NavigationLink link="/">Home</NavigationLink>
+        <NavigationLink link="/projects">Projects</NavigationLink>
+        <NavigationLink link="/about">About</NavigationLink>
+        <NavigationLink link="/experience">Experience</NavigationLink>
+        <CartButton />
+      </div>
     </StyledUl>
   </StyledNav>
 );

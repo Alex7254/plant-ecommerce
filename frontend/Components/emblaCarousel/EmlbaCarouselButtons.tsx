@@ -5,7 +5,7 @@ const sharedButtonStyles = css`
   background-color: transparent;
   position: absolute;
   z-index: 1;
-  top: 50%;
+  top: -6rem;
   transform: translateY(-50%);
   border: 0;
   width: 5rem;
@@ -13,7 +13,6 @@ const sharedButtonStyles = css`
   justify-content: center;
   align-items: center;
   padding: 0;
-
   &:not(:disabled) {
     cursor: pointer;
     fill: #bc6c25;

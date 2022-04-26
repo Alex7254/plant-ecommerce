@@ -5,6 +5,7 @@ import { PrevButton, NextButton } from "./EmlbaCarouselButtons";
 
 const Embla = styled.div`
   position: relative;
+  /* display: none; */
 `;
 
 const Viewport = styled.div`
